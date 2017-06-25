@@ -1,14 +1,23 @@
-
-
 # scss全解析
 
+A scss tutorial to help you master scss language.
+
+## Get started preparation
+
 ```bash
+	# install sass cli
+	gem install sass
+
+	# start to build scss to css
 	sh ./build.sh
+
 ```
 
-## 使用
+## How To Use
 
-> 查看input文件夹，level难度如下
+> check out the input folder, content framework are listed below
+
+> The topper the content lists below, the easier for you to master.
 
 - basic
 
@@ -22,4 +31,6 @@
 
 - function
 
-> 大家务必掌握basic的scss知识
+## Links
+
+[scss官方教程](http://sass-lang.com/)
