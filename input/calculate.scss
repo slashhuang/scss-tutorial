@@ -7,9 +7,8 @@
 
  // 变量Variables: $--------------------------------------------
  // Variables begin with dollar signs, and are set like CSS properties:
-
-$width: 5em; 
-
+@import "./basic.scss";
+$width: 10px;
 #main {
   width: $width;
 }
@@ -21,11 +20,19 @@ p {
   width: (1em + 2em) * 3;
 }
 
+.p {
+  $width: 10px;
+  .a{
+    width: $width
+  }
+}
+
 // 插值Interpolation: #{}
 $name: foo;
 $attr: border;
 p.#{$name} {
   #{$attr}-color: blue;
+  content: "hello world #{$name}"
 }
 
 

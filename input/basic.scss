@@ -15,28 +15,32 @@
 				color:red
 			}
 		}
-
 	}
 }
 
 
-// 引用父选择符： &
+// 引用父选择符： & ==> parent selector
 // & 在编译时将被替换为父选择符，输出到 CSS 中
-
+// a:hover , a:active , a:visited , a:first-letter , a:last-child
 // .hello.active{color}
 .hello {
-  font-weight: bold;
-  text-decoration: none;
-  &.active{
-  	color:black
-  }
-  &:visited{}
-  &:hover { text-decoration: underline; }
-  body.firefox & { font-weight: normal; }
+	.dropdown{
+		display: none;
+	}
+  &:hover { 
+		.dropdown{
+			display: block;
+		}
+	}
 }
+/**/
 
 /* 嵌套属性 CSS has quite a few properties that are in "namespaces;"*/
-
+// DRY
+// font-family
+// font-size
+// boder-radius
+// border-color
 .funky {
   font: {
     family: fantasy;
@@ -51,4 +55,5 @@
 
 // 注释规则  Comments: /* */ and //
 
+$width: 5em; 
 
