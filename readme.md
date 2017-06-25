@@ -14,8 +14,8 @@ sh ./build.sh
 
 ## How To Use
 
-> check out the input folder, content framework are listed below.
-> The topper the content lists below, the easier for you to master.
+> check out the listed content category.
+> The topper the content is, the easier that you can master.
 
 - [basic](./input/basic.scss)
 
