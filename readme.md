@@ -5,11 +5,11 @@ A scss tutorial to help you master scss language.
 ## Get started preparation
 
 ```bash
-	# install sass cli
-	gem install sass
+# install sass cli
+gem install sass
 
-	# start to build scss to css
-	sh ./build.sh
+# start to build scss to css
+sh ./build.sh
 
 ```
 
@@ -19,17 +19,17 @@ A scss tutorial to help you master scss language.
 
 > The topper the content lists below, the easier for you to master.
 
-- basic
+- [basic](./input)(basic.scss)
 
-- static_directive
+- [static_directive](./input)(static_directive.scss)
 
-- calculate
+- [calculate](./input)(calculate.scss)
 
-- mixin_directive
+- [mixin_directive](./input)(mixin_directive.scss)
 
-- control_directive
+- [control_directive](./input)(control_directive.scss)
 
-- function
+- [function](./input)(function.scss)
 
 ## Links
 
